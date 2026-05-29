@@ -502,10 +502,11 @@ dependencies = [
 
 [[package]]
 name = "base-util"
-version = "0.11.0"
-source = "git+https://github.com/frederik-uni/manga-image-translator-rust?branch=master#56ec5def3787d3a8a7e31c54cce743f4309c5ce9"
+version = "0.12.2"
+source = "git+https://github.com/Phobos1641/manga-image-translator-rust?branch=master#9b938d47c05d6adfd3f1b7865e0b1d8cb8fdbeef"
 dependencies = [
  "anyhow",
+ "log",
  "ndarray",
  "thiserror 2.0.16",
  "ureq",
@@ -864,7 +865,7 @@ dependencies = [
 [[package]]
 name = "ct2rs"
 version = "0.9.7"
-source = "git+https://github.com/frederik-uni/ctranslate2-rs?branch=use-with-dynamic-linking#d0020ec6bae44007b21a4cdb552a62c5b02dc0ee"
+source = "git+https://github.com/Phobos1641/ctranslate2-rs?branch=use-with-dynamic-linking#fcc00f8da1b584d27cfc8f7dca691835b3996635"
 dependencies = [
  "anyhow",
  "cmake",
@@ -1807,8 +1808,8 @@ dependencies = [
 
 [[package]]
 name = "interface-model"
-version = "0.11.0"
-source = "git+https://github.com/frederik-uni/manga-image-translator-rust?branch=master#56ec5def3787d3a8a7e31c54cce743f4309c5ce9"
+version = "0.12.2"
+source = "git+https://github.com/Phobos1641/manga-image-translator-rust?branch=master#9b938d47c05d6adfd3f1b7865e0b1d8cb8fdbeef"
 dependencies = [
  "anyhow",
  "async-trait",
